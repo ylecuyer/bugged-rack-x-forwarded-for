@@ -1,0 +1,17 @@
+Run with:
+
+```
+bundle install
+bundle exec puma
+```
+
+Then test with:
+
+```
+curl -X GET -H "X-Forwaded-Host: host1" -H "X-Forwarded-Host: host2" -H "X-Forwarded-Host: host3" http://localhost:9292
+curl -X GET -H "X-Forwaded-Host: host1" -H "X-Forwarded-Host: host2" http://localhost:9292
+curl -X GET -H "X-Forwaded-Host: host1" http://localhost:9292
+```
+
+
+Change Gemfile for good and bad revision of rack
