@@ -1,0 +1,23 @@
+GIT
+  remote: https://github.com/rack/rack.git
+  revision: 290523f67cc43c5847b2be2d12964d1232061fe1
+  ref: 290523f67cc43c5847b2be2d12964d1232061fe1
+  specs:
+    rack (2.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    nio4r (2.5.8)
+    puma (5.6.2)
+      nio4r (~> 2.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  puma
+  rack!
+
+BUNDLED WITH
+   2.3.3
